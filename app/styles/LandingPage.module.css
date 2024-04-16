@@ -1,0 +1,62 @@
+.container {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #0d5c63;
+}
+
+.navLinks a,
+.signInButton {
+  color: #0d5c63;
+  text-decoration: none;
+  margin: 0 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.signInButton {
+  background-color: #00b3a6;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+}
+
+.hero {
+  background-image: url("https://source.unsplash.com/featured/?futuristic,public,transport");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+  padding: 120px 20px;
+  min-height: 600px;
+}
+
+.h1,
+.p {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ctaButton {
+  background-color: #f4a261;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+}
